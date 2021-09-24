@@ -1,0 +1,37 @@
+
+
+
+ .ToDoTask{
+     display: inline-block;
+     color: rgb(36, 36, 43);
+     font-size:  30px;
+     background-color: coral;
+
+ }
+.InProgress{
+    display: inline-block;
+    margin-left: 80px;
+    color: rgb(36, 36, 43);
+    font-size:  30px;
+    background-color: coral;
+
+}
+
+.Done{
+    display: inline-block;
+    margin-left: 150px;
+    color: rgb(36, 36, 43);
+    font-size:  30px;
+    background-color: coral;
+
+}
+
+#title{
+    text-align : center ;
+    color: blue;
+}
+
+.button::after{
+    content: "\a";
+    white-space: pre;
+}
